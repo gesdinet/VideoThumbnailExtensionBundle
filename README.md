@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-composer require "gesdinet/VideoThumbnailExtensionBundlee" "~0.1.0"
+composer require "gesdinet/videothumbnailextensionbundle" "~0.1.0"
 ```
 
 ### Symfony 2.x
