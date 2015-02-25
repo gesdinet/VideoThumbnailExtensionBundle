@@ -1,0 +1,5 @@
+services:
+    gesdinet.video_thumbnail.twig_extension:
+        class: Gesdinet\Bundle\VideoThumbnailExtensionBundle\Twig\VideoThumbnailExtension
+        tags:
+            - { name: twig.extension }
