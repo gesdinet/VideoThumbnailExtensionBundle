@@ -3,3 +3,7 @@ services:
         class: Gesdinet\Bundle\VideoThumbnailExtensionBundle\Twig\VideoThumbnailExtension
         tags:
             - { name: twig.extension }
+    gesdinet.video_embed_url.twig_extension:
+        class: Gesdinet\Bundle\VideoThumbnailExtensionBundle\Twig\VideoEmbedUrlExtension
+        tags:
+            - { name: twig.extension }
