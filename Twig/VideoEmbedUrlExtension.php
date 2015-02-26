@@ -11,9 +11,8 @@ class VideoEmbedUrlExtension extends \Twig_Extension
         );
     }
 
-    public function getUrlPlayer($code, $params = null, $type = 'youtube')
+    public function getUrlPlayer($code, $params = '', $type = 'youtube')
     {
-        $params = implode("&", $params);
         switch ($type) {
             case 'youtube':
                 return 'http://www.youtube.com/embed/'.$code.'?'.$params;
