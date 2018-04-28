@@ -15,7 +15,7 @@ class VideoEmbedUrlExtension extends \Twig_Extension
     {
         switch ($type) {
             case 'youtube':
-                return 'http://www.youtube.com/embed/'.$code.'?'.$params;
+                return 'https://www.youtube.com/embed/'.$code.'?'.$params;
         }
 
         return null;
