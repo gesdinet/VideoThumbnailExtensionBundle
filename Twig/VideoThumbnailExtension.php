@@ -15,7 +15,7 @@ class VideoThumbnailExtension extends \Twig_Extension
     {
         switch ($type) {
             case 'youtube':
-                return 'http://img.youtube.com/vi/'.$code.'/0.jpg';
+                return 'https://img.youtube.com/vi/'.$code.'/0.jpg';
         }
 
         return null;
