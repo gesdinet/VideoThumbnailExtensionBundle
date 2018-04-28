@@ -3,7 +3,7 @@
   "description" : "Video Thumbnail Extension Bundle",
   "homepage": "https://github.com/gesdinet/VideoThumbnailExtensionBundle",
   "type" : "symfony-bundle",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "authors" : [{
     "name" : "Gesdinet",
     "email" : "contacto@gesdinet.com"
